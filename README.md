@@ -1,1 +1,1 @@
-https://szczepanskimichal.github.io/goit-markup-hw-07/
+https://szczepanskimichal.github.io/goit-markup-hw-06/
