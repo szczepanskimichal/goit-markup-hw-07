@@ -54,10 +54,10 @@ body {
   color: #212121;
 }
 
-.pageHeader__item--agency:focus,
 .pageHeader__item--agency:hover,
-.pageHeader__item--portfolio:focus,
-.pageHeader__item--portfolio:hover {
+.pageHeader__item--agency:focus,
+.pageHeader__item--portfolio:hover,
+.pageHeader__item--portfolio:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
