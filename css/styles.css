@@ -762,7 +762,7 @@ h4 {
   margin-bottom: 12px;
 }
 
-.form-input {
+.formInput {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   /* margin-bottom: 10px; */
@@ -793,13 +793,13 @@ h4 {
   left: 66px;
   top: 253px;
 }
-.form-input:hover,
-.form-input:focus {
+.formInput:hover,
+.formInput:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.form-input:hover + svg,
-.form-input:focus + svg {
+.formInput:hover + svg,
+.formInput:focus + svg {
   fill: #2196f3;
 }
 .formList {
