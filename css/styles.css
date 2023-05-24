@@ -642,7 +642,7 @@ h4 {
 .modal {
   position: absolute;
   background-color: #ffffff;
-  padding: 10px;
+
   transform: translate (-50%, -50%), scale(1);
   transition: transform 550ms ease-in;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -778,7 +778,7 @@ h4 {
   align-items: center;
   position: absolute;
   left: 50px;
-  top: 123px;
+  top: 113px;
 }
 .iconPhone {
   display: flex;
@@ -786,12 +786,12 @@ h4 {
   align-items: center;
   position: absolute;
   left: 66px;
-  top: 188px;
+  top: 180px;
 }
 .iconMail {
   position: absolute;
   left: 66px;
-  top: 253px;
+  top: 245px;
 }
 .formInput:hover,
 .formInput:focus {
