@@ -389,13 +389,13 @@ h2 {
   margin-top: 94px;
   padding: 0;
 }
-.ourTeam__pictures {
+.ourTeam__gallery {
   display: flex;
   padding: 0;
   flex-basis: calc((100% - 20px) / 4);
   gap: 30px;
 }
-.picture {
+.ourTeam__picture {
   padding: 0;
   align-items: center;
   background: #ffffff;
@@ -975,7 +975,7 @@ textarea:focus {
   transform: scale(1);
 }
 
-.margin {
+.check-icon__margin {
   margin-right: 9px;
   margin-bottom: 2px;
 }
