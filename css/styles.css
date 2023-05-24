@@ -802,7 +802,7 @@ h4 {
 .form-input:focus + svg {
   fill: #2196f3;
 }
-.form-list {
+.formList {
   display: flex;
   flex-direction: column;
   height: 466px;
