@@ -159,7 +159,7 @@ ul {
   list-style-type: none;
   line-height: 1.5;
 }
-.button {
+.primaryBox__button {
   width: 200px;
   letter-spacing: 0.03em;
   line-height: 1.9;
@@ -747,7 +747,7 @@ h4 {
   fill: #eeeeee;
 }
 
-.form-header-margin {
+.formHeader--margin {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
