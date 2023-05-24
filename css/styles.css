@@ -807,7 +807,7 @@ h4 {
   flex-direction: column;
   height: 466px;
 }
-.form-label {
+.formLabel {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
