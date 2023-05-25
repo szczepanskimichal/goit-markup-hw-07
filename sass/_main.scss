@@ -1,5 +1,15 @@
 @use "utils/variables";
 @use "components/logo";
-@import "components/_pageHeader";
+@use "import/_pageHeader";
 @use "components/navigation";
 @use "utils/global.scss";
+@use "components/primaryBox";
+@use "components/modal";
+@use "components/formHeader";
+@use "components/whatWeDo";
+@use "components/picturesPortfolio";
+@use "components/ourTeam";
+@use "components/ourCustomers";
+@use "components/loremIpsum";
+@use "components/footer";
+@use "components/buttonsPortfolio";
