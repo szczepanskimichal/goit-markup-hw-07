@@ -46,26 +46,26 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0,  0.2,  1);
 }
 
-.pageHeader__agency {
+.nav__agency {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.portfolioBezBara:hover,
-.portfolioBezBara:focus {
+.nav__portfolioBezBara:hover,
+.nav__portfolioBezBara:focus {
   color: #2196f3;
 }
-.pageHeader__agencyBezBara:hover,
-.pageHeader__agencyBezBara:focus {
+.nav__agencyBezBara:hover,
+.nav__agencyBezBara:focus {
   color: #2196f3;
 }
-.pageHeader__item--contacts {
+.nav__item--contacts {
   margin-right: 46px;
   border: 2px;
 }
-.pageHeader__agency::after,
-.pageHeader__agency::after {
+.nav__agency::after,
+.nav__agency::after {
   display: flex;
   justify-content: center;
   content: "";
@@ -77,27 +77,27 @@ body {
   margin-top: 24px;
   position: absolute;
 }
-.pageHeader__agencyBezBara {
+.nav__agencyBezBara {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.portfolioBezBara {
+.nav__portfolioBezBara {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.pageHeader__portfolio {
+.nav__portfolio {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.pageHeader__portfolio::after,
-.pageHeader__portfolio::after {
+.nav__portfolio::after,
+.nav__portfolio::after {
   display: flex;
   justify-content: center;
   content: "";
@@ -109,7 +109,7 @@ body {
   margin-top: 24px;
   position: absolute;
 }
-.pageHeader__mailto {
+.nav__mailto {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -121,7 +121,7 @@ body {
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.pageHeader__tel1 {
+.nav__tel1 {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -132,19 +132,19 @@ body {
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.pageHeader__mailto:hover,
-.pageHeader__mailto:focus,
-.pageHeader__tel1:hover,
+.nav__mailto:hover,
+.nav__mailto:focus,
+.nav__tel1:hover,
 .link:hover,
-.pageHeader__tel1:focus,
+.nav__tel1:focus,
 .link:focus {
   color: #2196f3;
   fill: #2196f3;
 }
-.pageHeader__mailto--envelope {
+.nav__mailto--envelope {
   margin-right: 10px;
 }
-.pageHeader__tel1--smartphone {
+.nav__tel1--smartphone {
   margin-left: 30px;
   margin-right: 10px;
 }
@@ -409,18 +409,18 @@ h2 {
 .pageHeader {
   border-bottom: 1px solid #ececec;
 }
-.pageHeader__nav {
+.nav {
   display: flex;
   max-width: 492px;
   align-items: center;
 }
-.pageHeader__navList {
+.nav__list {
   width: 254px;
   display: flex;
   justify-content: space-between;
   padding: 0;
 }
-.pageHeader__contact {
+.nav__contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: flex;
