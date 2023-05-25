@@ -759,7 +759,7 @@ h4 {
   margin-bottom: 12px;
 }
 
-.formInput {
+.formLabel__formInput {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   /* margin-bottom: 10px; */
@@ -767,7 +767,7 @@ h4 {
   outline: 0;
   position: relative;
 }
-.iconName {
+.formLabel__iconName {
   margin-right: 15px;
   margin-left: 15px;
   display: flex;
@@ -777,7 +777,7 @@ h4 {
   left: 50px;
   top: 113px;
 }
-.iconPhone {
+.formLabel__iconPhone {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -785,18 +785,18 @@ h4 {
   left: 66px;
   top: 180px;
 }
-.iconMail {
+.formLabel__iconMail {
   position: absolute;
   left: 66px;
   top: 245px;
 }
-.formInput:hover,
-.formInput:focus {
+.formLabel__formInput:hover,
+.formLabel__formInput:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.formInput:hover + svg,
-.formInput:focus + svg {
+.formLabel__formInput:hover + svg,
+.formLabel__formInput:focus + svg {
   fill: #2196f3;
 }
 .formList {
@@ -943,7 +943,7 @@ textarea:focus {
   align-items: center;
   margin-right: 1px;
 }
-.modal-links {
+.policyStatement__modal-links {
   text-decoration: underline;
   color: #2196f3;
 }
@@ -979,6 +979,6 @@ textarea:focus {
 .signUp:focus {
   cursor: pointer;
 }
-.statement {
+.policyStatement {
   color: rgba(117, 117, 117, 1);
 }

@@ -82,12 +82,12 @@
                   >Imię
                   <input
                     name="user_name"
-                    class="formInput"
+                    class="formLabel__formInput"
                     id="user_name"
                     type="text"
                     required
                   />
-                  <svg class="iconName" width="15" height="15">
+                  <svg class="formLabel__iconName" width="15" height="15">
                     <use
                       href="./images/icons.svg#icon-person-black-18dp-1"
                     ></use>
@@ -97,14 +97,14 @@
                   >Telefon
                   <input
                     name="phone_number"
-                    class="formInput"
+                    class="formLabel__formInput"
                     id="phone_number"
                     type="tel"
                     title="Wprowadź numer w foracie 111-111-111"
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
                     required
                   />
-                  <svg class="iconPhone" width="13" height="13">
+                  <svg class="formLabel__iconPhone" width="13" height="13">
                     <use
                       href="./images/icons.svg#icon-phone-black-18dp-1"
                     ></use>
@@ -114,12 +114,12 @@
                   >Email
                   <input
                     name="email"
-                    class="formInput"
+                    class="formLabel__formInput"
                     id="email"
                     type="email"
                     required
                   />
-                  <svg class="iconMail" width="15" height="12">
+                  <svg class="formLabel__iconMail" width="15" height="12">
                     <use href="./images/icons.svg#icon-Vector"></use>
                   </svg>
                 </label>
@@ -145,10 +145,15 @@
                       required
                       class="check-icon__margin"
                     />
-                    <span class="statement">
+                    <span class="policyStatement">
                       Oświadczam iż akceptuję
-                      <a href="" class="modal-links"> Regulamin</a> i
-                      <a href="" class="modal-links"> Politykę Prywatności</a>
+                      <a href="" class="policyStatement__modal-links">
+                        Regulamin</a
+                      >
+                      i
+                      <a href="" class="policyStatement__modal-links">
+                        Politykę Prywatności</a
+                      >
                     </span>
                   </label>
                 </div>
