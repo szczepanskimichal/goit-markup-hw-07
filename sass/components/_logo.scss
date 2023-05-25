@@ -8,14 +8,14 @@
 .logo:hover {
   text-decoration: none;
 }
-.logo__web {
+&__web {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
   line-height: 1.2;
   font-weight: 700;
 }
-.logo__studio {
+&__studio {
   font-size: 26px;
   letter-spacing: 0.03em;
   font-weight: 700;
