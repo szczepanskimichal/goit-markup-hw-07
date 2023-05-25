@@ -60,9 +60,9 @@ body {
 .nav__agencyBezBara:focus {
   color: #2196f3;
 }
-.nav__item--contacts {
-  margin-right: 46px;
-  border: 2px;
+.nav__contacts {
+  display: flex;
+  align-items: center;
 }
 .nav__agency::after,
 .nav__agency::after {
