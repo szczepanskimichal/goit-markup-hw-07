@@ -24,11 +24,11 @@
     margin-bottom: 20px;
     overflow: auto;
     resize: none;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid $brand-black;
     border-radius: 4px;
     outline: none;
     width: 100%;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 1px $just-black;
   }
 
   &__checkbox {
@@ -41,7 +41,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #080808;
+    color: $just-black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,10 +49,10 @@
   }
   &__modal-links {
     text-decoration: underline;
-    color: #2196f3;
+    color: $brand-blue;
   }
   &__policyStatement {
-    color: rgba(117, 117, 117, 1);
+    color: $brand-grey;
   }
   &__check-icon {
     position: absolute;
@@ -66,13 +66,13 @@
     appearance: none;
     width: 16px;
     height: 15px;
-    border: 2px solid black;
+    border: 2px solid $just-black;
     border-radius: 4px;
     margin-right: 7px;
     cursor: pointer;
   }
   &__policy input:checked {
-    border-color: rgb(255, 255, 255);
+    border-color: $just-white;
   }
   &__policy:has(input:checked) &__check-icon {
     transform: scale(1);
@@ -86,7 +86,7 @@
     left: -4px;
   }
   &__input {
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid $brand-black;
     border-radius: 4px;
     /* margin-bottom: 10px; */
     padding: 11px 0 11px 42px;
@@ -118,19 +118,19 @@
   }
   &__input:hover,
   &__input:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $brand-blue;
     border-radius: 4px;
   }
   &__input:hover + svg,
   &__input:focus + svg {
-    fill: #2196f3;
+    fill: $brand-blue;
   }
 
   &__formLabel {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $brand-grey;
     margin-bottom: 4px;
     margin-top: 10px;
     display: flex;
@@ -143,8 +143,8 @@
     outline: 0;
   }
   &__button {
-    color: #fff;
-    background-color: #2196f3;
+    color: $just-white;
+    background-color: $brand-blue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
@@ -168,7 +168,7 @@
     font-weight: 400;
     line-height: 0.875rem;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 1);
+    color: $brand-grey;
     margin-bottom: 4px;
   }
   &__checkbox {
@@ -182,7 +182,7 @@
   }
   &__input:checked + &__policy + .vector1 {
     /* border-color: #2196f3; */
-    background-color: #2196f3;
+    background-color: $brand-blue;
   }
   &__input:checked + &__policy::after {
     border-color: red;
@@ -194,8 +194,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 1px solid #0000001a;
-    background-color: #fff;
+    border: 1px solid $just-black;
+    background-color: $just-white;
     padding: 6px;
     position: absolute;
     top: 8px;
@@ -213,32 +213,6 @@
   }
   &__feedback:hover,
   &__feedback:focus {
-    border-color: #2196f3;
+    border-color: $brand-blue;
   }
 }
-
-// .checkbox__control {
-//   position: relative;
-//   display: inline-flex;
-//   flex: 0 0 auto;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 2px;
-//   transition: box-shadow 0.15s ease-in;
-// }
-// .modal__input {
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   clip: rect(1px, 1px, 1px, 1px);
-// }
-// .modal__label {
-//   transition: box-shadow 0.15s ease-in;
-//   display: block;
-//   width: 100%;
-//   border: #212121 solid 2px;
-//   width: 16px;
-//   height: 15px;
-//   border-radius: 2px;
-//   margin-top: 25px;
-// }
