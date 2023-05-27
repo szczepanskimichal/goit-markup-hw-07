@@ -45,27 +45,27 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.sosialMedia {
+.socialMedia {
   /* padding-top: 20px; */
   display: flex;
   gap: 10px;
   padding-left: 0;
   border-radius: 50%;
 }
-.sosialMedia__border {
+.socialMedia__border {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
-  fill: var(--brand-lightgrey);
+  // fill: var(--brand-lightgrey);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.sosialMedia__border:hover,
-.sosialMedia__border:focus {
+.socialMedia__border:hover,
+.socialMedia__border:focus {
   background-color: #2196f3;
 }
-.sosialMedia__border:hover svg,
-.sosialMedia__border:focus svg {
+.socialMedia__border:hover svg,
+.socialMedia__border:focus svg {
   fill: #eeeeee;
 }
 .media {

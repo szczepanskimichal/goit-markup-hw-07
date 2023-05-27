@@ -4,12 +4,12 @@
   letter-spacing: 0.02em;
   color: #2196f3;
 }
-.nav__portfolioBezBara:hover,
-.nav__portfolioBezBara:focus {
+.nav__portfolioWithoutBar:hover,
+.nav__portfolioWithoutBar:focus {
   color: #2196f3;
 }
-.nav__agencyBezBara:hover,
-.nav__agencyBezBara:focus {
+.nav__agencyWithoutBar:hover,
+.nav__agencyWithoutBar:focus {
   color: #2196f3;
 }
 .nav__contacts {
@@ -29,13 +29,13 @@
   margin-top: 24px;
   position: absolute;
 }
-.nav__agencyBezBara {
+.nav__agencyWithoutBar {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav__portfolioBezBara {
+.nav__portfolioWithoutBar {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -73,7 +73,7 @@
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__tel1 {
+.nav__tel {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -86,9 +86,9 @@
 }
 .nav__mailto:hover,
 .nav__mailto:focus,
-.nav__tel1:hover,
+.nav__tel:hover,
 .link:hover,
-.nav__tel1:focus,
+.nav__tel:focus,
 .link:focus {
   color: #2196f3;
   fill: #2196f3;
@@ -96,7 +96,7 @@
 .nav__mailto--envelope {
   margin-right: 10px;
 }
-.nav__tel1--smartphone {
+.nav__tel--smartphone {
   margin-left: 30px;
   margin-right: 10px;
 }
@@ -117,10 +117,10 @@
   display: flex;
   align-items: center;
 }
-.link {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  color: #212121;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+// .link {
+//   font-weight: 500;
+//   font-size: 14px;
+//   letter-spacing: 0.02em;
+//   color: #212121;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }

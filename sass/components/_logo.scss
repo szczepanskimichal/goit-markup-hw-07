@@ -4,28 +4,21 @@
   line-height: 1.2;
   text-decoration: none;
   margin-right: 93px;
-}
-.logo:hover {
-  text-decoration: none;
-}
-.logo__web {
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  line-height: 1.2;
-  font-weight: 700;
-}
-.logo__studio {
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #000000;
-}
-.stu {
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #ffffff;
+  &:hover {
+    text-decoration: none;
+  }
+  &__web {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  &__studio {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+  }
 }
