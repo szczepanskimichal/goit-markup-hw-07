@@ -187,4 +187,10 @@
   &__signUp:focus {
     cursor: pointer;
   }
+  &__address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: $just-white;
+  }
 }
