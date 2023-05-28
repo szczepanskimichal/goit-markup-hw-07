@@ -36,25 +36,25 @@
               <a class="navigation__link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Kontakt</a>
+              <a class="navigation__link" href="#">Contact</a>
             </li>
           </ul>
         </nav>
 
         <ul class="header__contacts">
           <li>
-            <a class="header__link" href="mailto:info@devstudio.com"
+            <a class="header__link" href="mailto:webmaster@example.com"
               ><svg class="header__mail-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-1"></use></svg
-              >info@devstudio.com</a
+              >webmaster@example.com</a
             >
           </li>
           <li>
-            <a class="header__link" href="tel:+48111111111">
+            <a class="header__link" href="tel:9308102393434">
               <svg class="header__phone-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone-1"></use>
               </svg>
-              +48 111 111 111</a
+              9308102393434</a
             >
           </li>
         </ul>
@@ -64,11 +64,9 @@
       <!-- Hero -->
       <section class="hero">
         <div class="container hero__box">
-          <h1 class="hero__heading">
-            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-          </h1>
+          <h1 class="hero__heading">EFFICIENT SOLUTIONS FOR YOUR BUSINESS</h1>
           <button data-modal-open class="hero__button" type="button">
-            Zamów usługę
+            Order the service
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -212,7 +210,7 @@
       <!-- Czym się zajmujemy -->
       <section>
         <div class="container section activity top-padding-none">
-          <h2 class="secondary-heading">Czym się zajmujemy</h2>
+          <h2 class="secondary-heading">What we do</h2>
           <ul class="activity__list">
             <li class="activity__item">
               <img
@@ -221,7 +219,7 @@
                 width="370"
                 height="294"
               />
-              <div class="activity__description">aplikacje komputerowe</div>
+              <div class="activity__description">COMPUTER APPLICATIONS</div>
             </li>
             <li class="activity__item">
               <img
@@ -230,7 +228,7 @@
                 width="370"
                 height="294"
               />
-              <div class="activity__description">aplikacje mobilne</div>
+              <div class="activity__description">MOBILE APPLICATIONS</div>
             </li>
             <li class="activity__item">
               <img
@@ -239,7 +237,7 @@
                 width="370"
                 height="294"
               />
-              <div class="activity__description">rozwiązania graficzne</div>
+              <div class="activity__description">GRAPHICS SOLUTIONS</div>
             </li>
           </ul>
         </div>
@@ -247,7 +245,7 @@
       <!-- Nasz zespół -->
       <section class="team">
         <div class="container section team__box">
-          <h2 class="secondary-heading">Nasz zespół</h2>
+          <h2 class="secondary-heading">Our team</h2>
           <ul class="team__list">
             <li class="team__card">
               <img
@@ -423,7 +421,7 @@
       <!-- Nasi klienci -->
       <section>
         <div class="container section clients">
-          <h2 class="secondary-heading">Nasi klienci</h2>
+          <h2 class="secondary-heading">Our customers</h2>
           <ul class="clients__list">
             <li>
               <a href="#" class="clients__logo">
@@ -473,26 +471,27 @@
     </main>
     <footer class="footer">
       <div class="container footer__box">
-        <div class="footer__navigation">
-          <a class="footer__logo" href="index.html">
-            <span class="footer__logo-web">Web</span
-            ><span class="footer__logo-studio">Studio</span></a
-          >
+        <div class="footer__box-second">
+          <div class="footer__navigation">
+            <a class="footer__logo" href="index.html">
+              <span class="footer__logo-web">Web</span
+              ><span class="footer__logo-studio">Studio</span></a
+            >
 
-          <address class="footer__address">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </address>
+            <address class="footer__address">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
 
-          <a
-            class="footer__link footer__link--marg"
-            href="mailto:info@example.com"
-            >info@example.com</a
-          >
-          <a class="footer__link" href="tel:+48111111111">+48 111 111 111</a>
-        </div>
-        <div class="footer__box__second">
+            <a
+              class="footer__link footer__link--marg"
+              href="mailto:webmaster@example.com"
+              >webmaster@example.com</a
+            >
+            <a class="footer__link" href="tel:9308102393434">9308102393434</a>
+          </div>
+
           <div class="footer-media">
-            <p class="footer-media__heading">dołącz do nas</p>
+            <p class="footer-media__heading">JOIN US</p>
             <ul class="footer-media__icons-list">
               <li>
                 <a href="#" class="footer-media__icons">
@@ -524,26 +523,33 @@
               </li>
             </ul>
           </div>
-          <div class="newsletter">
-            <p class="newsletter__heading">zapisz się do newslettera</p>
-            <form class="newsletter__form">
-              <input
-                class="newsletter__input"
-                type="email"
-                name="newsletter_email"
-                placeholder="E-mail"
-              />
-              <button class="newsletter__button" type="submit">
-                Zapisz się
-                <svg class="newsletter__button-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+        </div>
+        <div class="newsletter">
+          <p class="newsletter__heading">SIGN UP FOR NEWSLETTERS</p>
+          <form class="newsletter__form">
+            <input
+              class="newsletter__input"
+              type="email"
+              name="newsletter_email"
+              placeholder="E-mail"
+            />
+            <button class="newsletter__button" type="submit">
+              Zapisz się
+              <svg class="newsletter__button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
