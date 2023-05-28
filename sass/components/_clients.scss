@@ -1,0 +1,28 @@
+.clients {
+  flex-direction: column;
+
+  &__list {
+    justify-content: space-between;
+  }
+
+  &__logo {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: $iconsColor;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border-color: $hoverColor;
+      fill: $hoverColor;
+      cursor: pointer;
+    }
+  }
+}

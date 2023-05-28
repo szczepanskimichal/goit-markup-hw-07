@@ -1,0 +1,22 @@
+.description {
+  &__icon {
+    width: 270px;
+    height: 120px;
+    background-color: $teamBackground;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list {
+    column-gap: 30px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $headerLinkColor;
+    letter-spacing: 0.03em;
+  }
+}

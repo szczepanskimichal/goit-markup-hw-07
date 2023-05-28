@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $mainColor;
+  background: $backgroundColor;
+  width: 100%;
+}
+
+button {
+  border-width: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.secondary-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section {
+  padding: 94px 15px;
+  max-width: 1200px;
+  align-items: normal;
+}
+
+.tertiary-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
