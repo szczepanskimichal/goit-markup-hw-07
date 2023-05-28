@@ -1,6 +1,9 @@
 .footer {
   background-color: $footerBackground;
-
+  &__link:hover,
+  &__link:focus {
+    color: $hoverColor;
+  }
   &__address {
     font-size: 14px;
     line-height: 1.71;
