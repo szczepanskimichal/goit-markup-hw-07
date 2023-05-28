@@ -2,9 +2,20 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-.is-hidden .modal {
-  transform: scale(0);
+  &__modal {
+    transform: scale(0);
+  }
+  &__backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $brand-backdrop;
+  }
 }
 .backdrop {
   display: flex;

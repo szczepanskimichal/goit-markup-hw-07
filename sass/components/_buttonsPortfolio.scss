@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 94px;
-  &__buttonP {
+  &__button {
     background-color: $brand-portfoliobutton;
     border-radius: 4px;
     border: none;
@@ -18,8 +18,8 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__buttonP:hover,
-  &__buttonP:focus {
+  &__button:hover,
+  &__button:focus {
     background-color: $brand-blue;
     color: $just-white;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
