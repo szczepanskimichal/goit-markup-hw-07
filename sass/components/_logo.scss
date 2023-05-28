@@ -1,24 +1,16 @@
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
+  font-family: Raleway;
+  font-size: 1.625rem;
+  color: rgb(0, 0, 0);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   margin-right: 93px;
-  &:hover {
-    text-decoration: none;
-  }
-  &__web {
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: $brand-blue;
-    line-height: 1.2;
-    font-weight: 700;
-  }
-  &__studio {
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    line-height: 1.2;
-    color: $just-black;
-  }
+}
+
+.logo-web {
+  color: $brand-blue;
+}
+
+.logo-studio {
+  color: rgb(255, 255, 255);
 }

@@ -1,0 +1,37 @@
+.company {
+  margin: 94px 0;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__wrapper {
+    width: 170px;
+    height: 92px;
+    border-color: $brand-lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+
+  &__wrapper:hover,
+  &__wrapper:focus {
+    border-color: $brand-blue;
+    transition: 250ms;
+  }
+}
+
+.icon__company {
+  fill: $brand-lightgrey;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: $brand-blue;
+    transition: 250ms;
+  }
+}

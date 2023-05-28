@@ -1,0 +1,23 @@
+.icon-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+
+  &__item {
+    fill: $brand-lightgrey;
+  }
+
+  &__background {
+    fill: rgba(255, 255, 255, 0.1);
+  }
+
+  &__item:hover,
+  &__item:focus {
+    cursor: pointer;
+    fill: rgb(255, 255, 255);
+    background-color: $brand-blue;
+    border-radius: 50%;
+    transition: 250ms;
+  }
+}

@@ -1,0 +1,99 @@
+.portfolio-buttons {
+  justify-content: center;
+  display: inline-flex;
+  width: 100%;
+  margin: 94px 0 50px 0;
+
+  &__item {
+    background-color: rgb(245, 244, 250);
+    color: $brand-black;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 6px 22px;
+  }
+  &__item:hover,
+  &__item:focus {
+    background-color: $brand-blue;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    transition: 250ms;
+  }
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 94px;
+
+  &--shadow:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  &__photo {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+  }
+
+  &__photo--position {
+    vertical-align: middle;
+  }
+
+  &__text {
+    position: absolute;
+    top: 0px;
+    width: 370px;
+    height: 294px;
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 49px 45px 49px 24px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03rem;
+    color: rgb(255, 255, 255);
+    transform: translateY(100%);
+  }
+
+  &__description {
+    border: 1px solid rgb(238, 238, 238);
+    border-top: 0;
+    padding: 20px 24px 20px 24px;
+  }
+
+  &__project-name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: $brand-black;
+    margin: 0 0 4px 0;
+  }
+
+  &__project-type {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: $brand-grey;
+    margin: 4px 0 0 0;
+  }
+
+  &__photo:hover .portfolio__text {
+    transform: translateY(0);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
